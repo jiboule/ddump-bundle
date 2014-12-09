@@ -8,6 +8,6 @@ if (!function_exists('dd') && !function_exists('d')) {
     }
     function d ($mixed, $params = array())
     {
-        echo '<pre class="dd"'.(isset($params['style']) ? ' style="'.$params['style'].'"' : '').'>'.print_r($txt, true).'</pre>';
+        echo '<pre class="dd"'.(isset($params['style']) ? ' style="'.$params['style'].'"' : '').'>'.print_r($mixed, true).'</pre>';
     }
 }
