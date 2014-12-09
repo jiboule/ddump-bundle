@@ -3,7 +3,7 @@
     "type": "ymfony-bundle",
     "version": "0.0.1",
     "description": "DDump Bundle to dump and optionnaly exit",
-    "keywords": ["dump, debug"],
+    "keywords": ["dump", "debug"],
     "homepage": "https://github.com/jiboule/ddump-bundle.git",
     "license": "MIT",
     "authors": [
