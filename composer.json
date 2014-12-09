@@ -1,0 +1,35 @@
+{
+    "name": "jiboule/ddump-bundle",
+    "type": "ymfony-bundle",
+    "version": "0.0.1",
+    "description": "DDump Bundle to dump and optionnaly exit",
+    "keywords": ["dump, debug"],
+    "homepage": "https://github.com/jiboule/ddump-bundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiboule",
+            "email": "jbcadot@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/config": "~2.3",
+        "symfony/dependency-injection": "~2.2",
+        "symfony/event-dispatcher": "~2.3",
+        "symfony/http-kernel": "~2.3",
+        "symfony/var-dumper": "~2.6"
+    },
+    "require-dev": {
+        "twig/twig": "~1.12",
+        "tchwork/debug-bundle": "1.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"Jiboule":""}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
