@@ -1,8 +1,5 @@
 <?php
 
-echo 'c';
-exit();
-
 if (!function_exists('dd') && !function_exists('d')) {
     function dd ($mixed, $params = array())
     {
