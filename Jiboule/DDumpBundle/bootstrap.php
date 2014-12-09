@@ -11,3 +11,11 @@ if (!function_exists('dd') && !function_exists('d')) {
         echo '<pre class="dd"'.(isset($params['style']) ? ' style="'.$params['style'].'"' : '').'>'.print_r($mixed, true).'</pre>';
     }
 }
+
+if(!function_exists('ddump')) {
+    function ddump($var)
+    {
+        dump($var);
+        exit();
+    }
+}
