@@ -21,6 +21,11 @@ if (!function_exists('dd') && !function_exists('d')) {
     }
 }
 
+/**
+ * Using the function of the symfony Debug Bundle
+ * https://github.com/tchwork/debug-bundle
+ * Adding exit to stop the process
+ */
 if (!function_exists('ddump')) {
     /**
      * @param $var
