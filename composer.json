@@ -1,7 +1,7 @@
 {
     "name": "jiboule/ddump-bundle",
     "type": "ymfony-bundle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "DDump Bundle to dump and optionnaly exit",
     "keywords": ["dump", "debug"],
     "homepage": "https://github.com/jiboule/ddump-bundle.git",
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.6",
         "tchwork/debug-bundle": "~1.4"
     },
     "autoload": {

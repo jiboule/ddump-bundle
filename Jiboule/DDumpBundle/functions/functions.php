@@ -30,9 +30,9 @@ if (!function_exists('ddump')) {
     /**
      * @param $var
      */
-    function ddump($var)
+    function ddump(...$var)
     {
-        dump($var);
+        dump(...$var);
         exit();
     }
 }
