@@ -21,10 +21,5 @@
         "files": [
             "Jiboule/DDumpBundle/functions/functions.php"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.x-dev"
-        }
     }
 }
