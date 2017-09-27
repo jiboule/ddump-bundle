@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "tchwork/debug-bundle": "~1.4"
+        "symfony/debug": "~3.3"
     },
     "autoload": {
         "psr-0": {"Jiboule":""},
