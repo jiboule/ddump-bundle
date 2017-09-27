@@ -14,14 +14,12 @@
     ],
     "require": {
         "php": ">=5.6",
-        "tchwork/debug-bundle": "~1.4"
+        "symfony/debug": "~3.3"
     },
     "autoload": {
-        "psr-0": {"Jiboule":""}
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.x-dev"
-        }
+        "psr-0": {"Jiboule":""},
+        "files": [
+            "Jiboule/DDumpBundle/functions/functions.php"
+        ]
     }
 }
