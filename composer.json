@@ -1,7 +1,6 @@
 {
     "name": "jiboule/ddump-bundle",
     "type": "ymfony-bundle",
-    "version": "0.0.2",
     "description": "DDump Bundle to dump and optionnaly exit",
     "keywords": ["dump", "debug"],
     "homepage": "https://github.com/jiboule/ddump-bundle.git",
