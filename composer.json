@@ -17,7 +17,10 @@
         "tchwork/debug-bundle": "~1.4"
     },
     "autoload": {
-        "psr-0": {"Jiboule":""}
+        "psr-0": {"Jiboule":""},
+        "files": [
+            "Jiboule/DDumpBundle/functions/functions.php"
+        ]
     },
     "extra": {
         "branch-alias": {
