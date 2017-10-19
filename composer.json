@@ -1,7 +1,7 @@
 {
     "name": "jiboule/ddump-bundle",
     "type": "package",
-    "version": "2.0",
+    "version": "2.0.2",
     "description": "DDump Bundle to dump and optionnaly exit",
     "keywords": ["dump", "debug"],
     "homepage": "https://github.com/jiboule/ddump-bundle.git",
