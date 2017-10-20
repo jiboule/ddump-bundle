@@ -3,7 +3,7 @@
     "type": "package",
     "version": "2.0.2",
     "description": "DDump Bundle to dump and optionnaly exit",
-    "keywords": ["dump", "debug"],
+    "keywords": ["dump", "debug", "deprecated", "obsolete"],
     "homepage": "https://github.com/jiboule/ddump-bundle.git",
     "license": "MIT",
     "authors": [
